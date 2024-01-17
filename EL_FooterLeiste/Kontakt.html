@@ -1,34 +1,56 @@
 <!DOCTYPE html>
 <html lang="de">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Visitenkarte</title>
-    
+    <title>Meine Visitenkarte</title>
+    <style>
+        .container {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          height: 100vh; /* Diese Zeile stellt sicher, dass der Container die gesamte Höhe des Viewports einnimmt */
+        }
+        
+        .profilbild {
+          border-radius: 50%;
+          width: 150px;
+          height: 150px;
+          border: 3px solid #73AD21;
+        }
+        
+        header img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            margin-bottom: 5px;
+        }
+
+        </style>
     <style>
         body {
             font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
             margin: 0;
             display: flex;
-            flex-direction: column;
+            justify-content: center;
             align-items: center;
-            min-height: 100vh;
-            background-color: #f2f2f2;
+            height: 100vh;
         }
 
-   
-
-      
         .visitenkarte {
             background-color: #fff;
             padding: 20px;
-            margin: 10px;
-            width: 300px;
             border-radius: 10px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
             text-align: center;
-            line-height: 25px; 
+        }
+
+        .visitenkarte img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            margin-bottom: 10px;
         }
 
         .name {
@@ -44,81 +66,42 @@
 
         .kontakt {
             margin-top: 20px;
-            font-size: 14px;
         }
-        .test {
-            margin-top: 25px;
-            margin-bottom: 25px;  
+
+        .kontakt a {
+            display: block;
+            color: #3498db;
+            text-decoration: none;
+            margin-bottom: 5px;
+        }
+
+        .kontakt a:hover {
+            text-decoration: underline;
         }
     </style>
 </head>
-
 <body>
-    <header>
-    
-    </header>
+    <div class="container">
+       
+      </div>
 
-    <div class="test"> 
-        <div class="visitenkarte">
-            <div class="name">Informationspflicht laut </div>
-            <div class="position">§5 E-Commerce Gesetz<br> §14 Unternehmensgesetzbuch <br> §63 Gewerbeordnung</div>
-            <div class="name">Offenlegungspflicht laut </div>
-            <div class="position">§25 Mediengesetz</div>
+      <div class="visitenkarte">
+        <img src="../Bilder/Schule_HTL_Mdling_in_Pokemonstyle.png" alt="Dein Name">
+        <div class="name">Kontakt</div>
+        <div class="position">Guiding-Map</div>
+        
+        <div class="kontakt">
+            <p id="position3">Rufe uns an: <a href="tel:+123456789">+43 660 6847327</a></p>
+            <p id="position4">Kontaktiere uns per E-Mail: <a href="mailto:info@example.com">kurz.christoph.ck@gmail.com</a></p>
+        
         </div>
-    
-
-    
-        <div class="visitenkarte">
-            <div class="name">GuidingMap GmbH</div>
-            <div class="position">Technikerstraße 1-5 <br> A-2340 Mödling <br> Österreich</div>
-        </div>
-    
-        <div class="visitenkarte">
-            <div class="name">CEO: </div><div class="position">Christoph Kurz </div>
-            <div class="name">Concept Manager: </div><div class="position">Hannes Prochaska </div>
-            <div class="name">Web Editor: </div><div class="position">André Kadrnoschka </div>
-            <div class="name">Web Editor: </div><div class="position">Lukas Zlabinger</div>
-            <div class="name">Quality Management: </div><div class="position">Dominik Kerzl </div>
-            <div class="name">Graphic Designer:  </div><div class="position">Dominik Pichler </div>
-        </div>
-        <div class="visitenkarte">
-            <div class="name">Unternehmensgegenstand: </div>
-            <div class="position">IT Dienstleistungen</div>
-            <div class="name">UID-Nummer: </div>
-            <div class="position">ATU86549509</div>
-            <div class="name">GLN: </div>
-            <div class="position">095424906827538</div>a
-            <div class="name">GISA: </div>
-            <div class="position">98583210</div>
-            <div class="name">Firmenbuchnummer: </div>
-            <div class="position">0029384a</div>
-            <div class="name">Firmenbuchgericht: </div>
-            <div class="position">Mödling</div>
-            <div class="name">Firmensitz: </div>
-            <div class="position">A-2340 Mödling</div>
-        </div>
-        <div class="visitenkarte"> 
-        <div class="name">Tel.: </div>
-        <div class="position">+43 676 7863874</div>
-        <div class="name">Fax: </div>
-        <div class="position">0 676 7863874-0</div>
-        <div class="name">E-Mail: </div>
-        <div class="position"><a href="mailto:GuidingMap@htl.moedling.at">GuidingMap@htl.moedling.at</a></div>
     </div>
-    <div class="visitenkarte"> 
-    <div class="name">Berufsrecht: </div>
-            <div class="position">Gewerbeordnung: <a href="https://www.ris.bka.gv.at">www.ris.bka.gv.at</a></div>
-        </div>
-
-        <div class="visitenkarte">             <div class="name">Aufsichtsbehörde: </div>
-        <div class="position">Bezirkshauptmannschaft Mödling</div>
-        <div class="name">Berufsbezeichnung: </div>
-        <div class="position">Webdesigner & Grafiker</div>
-        <div class="name">Verleihungsstaat: </div>
-        <div class="position">Österreich</div> </div>
-
-        <div class="visitenkarte"><div class="position">  Alle Angaben ohne Gewehr. Diese wurden lediglich für den Gebrauch dieser Website erfunden.</div> </div>
-    </div>
- </body>
-
+    <style>
+        body {
+          background-color: lightgray;
+        }
+        </style>
+        </head>
+        <body>
+</body>
 </html>
