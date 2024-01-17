@@ -1,0 +1,38 @@
+body{
+    margin: 0px;
+    background: url(../Bilder/Schule_HTL_Mdling_in_Pokemonstyle.png) no-repeat center center fixed ;
+    background-size:cover;
+    min-height: 100vh;
+    font-family: Candara,bold;
+}
+.Ueberschriftbox{
+    text-align: center;
+    -webkit-text-fill-color: rgb(0, 0, 0);
+    font-size: 300%;
+    letter-spacing: 0.25rem;
+    display: table;
+    width: 100%;
+}
+.box{
+    background-color: rgb(0, 0, 0) ;
+    height: 20px;
+    width: 100%;
+}
+
+
+h1{
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 10px;
+}
+
+
+.karte{ 
+    padding: 5% 0;
+    width: 100%;
+    max-height: 100%;
+
+}
+.frame{
+    border: 5px solid black;
+    max-height: 70vh;
+}

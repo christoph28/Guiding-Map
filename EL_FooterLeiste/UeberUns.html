@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meine Visitenkarte</title>
+    
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: lightgray;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        header {
+            background-color: lightgray;
+            color: white;
+            padding: 1px;
+            text-align: center;
+            width: 100%;
+            position: fixed;
+            top: 0;
+            z-index: 1000;
+            backdrop-filter: blur(8px);
+            font-size: 120%;
+            font-family: Verdana, Arial, sans-serif;
+            border: 3px solid gray; 
+        }
+     
+
+
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .visitenkarte {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            margin: 10px;
+            width: 250px;
+        }
+
+        .visitenkarte img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            margin-bottom: 10px;
+        }
+
+        .name {
+            font-size: 1.5em;
+            font-weight: bold;
+            color: #333;
+        }
+
+        .position {
+            color: #777;
+            margin-bottom: 10px;
+        }
+
+        .kontakt {
+            margin-top: 20px;
+        }
+
+        .kontakt a {
+            display: block;
+            color: #3498db;
+            text-decoration: none;
+            margin-bottom: 5px;
+        }
+
+        .kontakt a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <p class="Mitte">Guiding-Map</p> 
+    </header>
+
+    <div class="visitenkarte">
+        <div class="name">Christoph Kurz</div>
+        <div class="position">Gruppenleiter</div>
+        <div class="kontakt">
+            <p>Tel: <a href="tel:+436606847327">+43 660 6847327</a></p>
+            <p>E-Mail: <a href="mailto:kurz.christoph.ck@gmail.com">kurz.christoph.ck@gmail.com</a></p>
+        </div>
+    </div>
+
+    <div class="visitenkarte">
+        <div class="name">Prochaska Hannes</div>
+        <div class="position">Concept Manager</div>
+        <div class="kontakt">
+            <p>Tel: <a href="tel:+436606847327">+43 681 81811421</a></p>
+            <p>E-Mail: <a href="mailto:kurz.christoph.ck@gmail.com">-/</a></p>
+        </div>
+    </div>
+
+    <div class="visitenkarte">
+        <div class="name">Zlabinger Lukas</div>
+        <div class="position">HTML/CSS Editor</div>
+        <div class="kontakt">
+            <p>Tel: <a href="tel:+436606847327">+43 699 16025138</a></p>
+            <p>E-Mail: <a href="mailto:kurz.christoph.ck@gmail.com">-/</a></p>
+        </div>
+    </div>
+
+    <div class="visitenkarte">
+        <div class="name">Kadrnoschka André</div>
+        <div class="position">HTML Editor</div>
+        <div class="kontakt">
+            <p>Tel: <a href="tel:+436606847327">+43 664 534 6009</a></p>
+            <p>E-Mail: <a href="mailto:kurz.christoph.ck@gmail.com">andre_k@gmx.at</a></p>
+        </div>
+    </div>
+
+    <div class="visitenkarte">
+        <div class="name">Kerzl Dominik</div>
+        <div class="position">Quality management</div>
+        <div class="kontakt">
+            <p>Tel: <a href="tel:+436606847327">+43 676 7312018</a></p>
+            <p>E-Mail: <a href="mailto:kurz.christoph.ck@gmail.com">-/</a></p>
+        </div>
+    </div>
+
+    <div class="visitenkarte">
+        <div class="name">Pichler Dominik</div>
+        <div class="position">Graphic designer</div>
+        <div class="kontakt">
+            <p>Tel: <a href="tel:+436606847327">+43 660 6355511</a></p>
+            <p>E-Mail: <a href="mailto:kurz.christoph.ck@gmail.com">-/</a></p>
+        </div>
+    </div>
+
+    
+</body>
+
+</html>
