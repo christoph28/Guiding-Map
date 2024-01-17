@@ -1,3 +1,0 @@
-# Guiding-Map
-
-# Fortnite
